@@ -23,18 +23,16 @@ def add_and_log(num1, num2)
 end
 
 def add(num1, num2)
+    puts num1, num2
     return num1 + num2
 end
 
  add(2, 5)
 
- def halve(name)
-  
-    halve(num1, num2)
-    return num1/num2
-
-    if name.class != ""
+ def halve(number)
+    if number.class != Integer
     return nil
  end
 
- halve(6/2)
+number/2
+end
